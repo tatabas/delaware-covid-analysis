@@ -30,7 +30,8 @@ bootstat_k = [];
 bootstat_c = [];
 %to keep track of days
 day = 1;
-totalIntervals = length(delaware.cases(:))-13;
+%totalIntervals = length(delaware.cases(:))-13;
+totalIntervals = 117; %based on data analyzed in document for July 18
 
 while day <= totalIntervals
     %current set of case values
