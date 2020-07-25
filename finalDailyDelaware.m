@@ -43,7 +43,8 @@ t = [0:13]';
 %begin counter
 day = 1;
 %the total windows that will be needed to ensure that all have 14 days
-totalIntervals = length(delaware.cases(:))-13;
+%totalIntervals = length(delaware.cases(:))-13; %for general analysis
+totalIntervals = 117; %for data anlalyzed in document July 18, 2020
 %setting size of the matrix
 bootstat = zeros(1000,(2*totalIntervals));
 %e stores the starting and ending points of the indices for data storage
