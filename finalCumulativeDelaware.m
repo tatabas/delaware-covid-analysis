@@ -37,7 +37,8 @@ bootfmin = [];
   %bootstrapped matrix
   e = [1:3:3*length(delaware.cases(:))];
   
-totalIntervals = length(delaware.cases(:))-13;
+%totalIntervals = length(delaware.cases(:))-13; %for up-to-date
+totalIntervals = 117; %for data analyzed in document
 
 while day <= totalIntervals
     t = [0:13];
