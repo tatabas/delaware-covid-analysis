@@ -10,4 +10,4 @@ firstmodelCumulativeDelaware.m (the program that fits the cumulative Delaware ca
 finalCumulativeDelaware.m (the program that fits the cumulative Delaware cases data into the model y = ae ^ kt + b)
 estimateCalc.m (the function used by finalCumulativeDelaware.m, this function provides the estimates for each 14-day modeling window)
 
-Attached in the repository there also exists a PDF (AtabasDelawareCovidReport.pdf) of a final report synthesizing the data and comparing the results to real events in the state of Delaware. The corresponding LaTeX code is in AtabasDelawareCovidReport.tex.
+Attached in the repository there also exists a PDF (AtabasDelawareCovidReport.pdf) of a final report synthesizing the data and comparing the results to real events in the state of Delaware. All figures used in the report are also attached.
