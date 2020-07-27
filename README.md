@@ -11,3 +11,6 @@ finalCumulativeDelaware.m (the program that fits the cumulative Delaware cases d
 estimateCalc.m (the function used by finalCumulativeDelaware.m, this function provides the estimates for each 14-day modeling window)
 
 Attached in the repository there also exists a PDF (AtabasDelawareCovidReport.pdf) of a final report synthesizing the data and comparing the results to real events in the state of Delaware. All figures used in the report are also attached.
+
+The CSV file us-states is from the New York Times Repository.
+The CSV file bootfmin_14.csv is used in finalCumulativeDelaware.m. It is a large data file that takes time to generate, so is attached here.
